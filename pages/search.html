@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <title>搜索-中森明菜出道40年歌曲作品全检索查询系统</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="content-language" content="zh-CN" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="supported-color-schemes" content="light dark" />
+  <meta name="renderer" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="applicable-device" content="pc,mobile" />
+  <meta name="author" content="JHrockice" />
+  <meta name="description" content="JHrockice的博客" />
+  <meta name="keywords" content="JHrockice,rockice,Blog,中森明菜,歌曲,akina,Akina,Nakamori,检索,查询,单曲,专辑,视频,歌姬,明菜" />
+  <link rel="icon" href="/static/img/favicon.ico" />
+  <link rel="apple-touch-icon" href="/static/img/logo.png" />
+  <link rel="stylesheet" href="/static/css/common.css?t=20240313203753" />
+  <link rel="stylesheet" href="/static/css/theme-dark.css?t=20240313203753" />
+  <link rel="stylesheet" href="/static/css/page.css?t=20240313203753" />
+  <script>
+    window.blog = {
+      baseurl: '',
+      buildAt: '20240313203753',
+      darkMode: false,
+      initDarkMode: function (flag) {
+        if (flag && flag === 'true') this.darkMode = true
+        else if (flag && flag === 'false') this.darkMode = false
+        else this.darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+        document.documentElement.className = this.darkMode ? 'dark' : ''
+        document.querySelector('meta[name=theme-color]').setAttribute('content', this.darkMode ? '#2D2E32' : '#FFFFFF')
+      }
+    }
+    blog.initDarkMode(localStorage.darkMode)
+  </script>
+</head>
+<body>
+<header class="header">
+  <a href="/" class="logo"></a><a href="/"><b>中森明菜<br>40年歌曲全检索&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a>
+  <nav class="menu">
+    <a href="/pages/about.html"  class="hover-underline">说明</a>
+    <a href="/pages/search.html"  class="hover-underline">搜索</a>
+    <a href="/pages/categories.html"  class="hover-underline">归类</a>
+    </nav>
+</header>
+<div class="page page-search">
+  <input id="search-input" type="text" placeholder="请在这里输入关键词 ^_^"></input>
+  <h1>
+    <span>搜索结果</span>
+    <i class="svg-icon icon-loading"></i>
+  </h1>
+  <ul class="list-search">
+    <li hidden>
+      <a href="/posts/2022/12/26/allsongs.html">
+        <p class="title">中森明菜歌曲名单</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2022/12/21/others.html">
+        <p class="title">非公認盤</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2022/11/16/419-utahimestereosoundselectionvol6.html">
+        <p class="title">AKINA NAKAMORI 歌姫 -Stereo Sound Selection- Vol.6</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2022/07/13/418-alltimebestoriginalstereosoundselectionvol5.html">
+        <p class="title">AKINA NAKAMORI All Time Best Original -Stereo Sound Selection- Vol.5</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2022/03/24/417-utahimestereosoundselectionvol4.html">
+        <p class="title">AKINA NAKAMORI 歌姫 -Stereo Sound Selection- Vol.4</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2021/12/10/416-utahimestereosoundselectionvol3.html">
+        <p class="title">AKINA NAKAMORI 歌姫 -Stereo Sound Selection- Vol.3</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2021/09/30/415-utahimestereosoundselectionvol2.html">
+        <p class="title">AKINA NAKAMORI 歌姫 -Stereo Sound Selection- Vol.2</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2020/12/21/414-utahimestereosoundselection.html">
+        <p class="title">AKINA NAKAMORI 歌姫 -Stereo Sound Selection-</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2017/11/08/611-cage.html">
+        <p class="title">Cage</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2017/11/08/225-akina.html">
+        <p class="title">明菜</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2016/12/21/610-vampire.html">
+        <p class="title">Vampire</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2016/11/30/609-belie.html">
+        <p class="title">Belie</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2016/07/13/702-nakamoriakinaanalogset.html">
+        <p class="title">中森明菜 アナログセット</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2016/05/04/917-thelivedvdcompletebox.html">
+        <p class="title">中森明菜 THE LIVE DVD COMPLETE BOX</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2016/02/24/151-fixerwhilethewomenaresleeping.html">
+        <p class="title">FIXER -WHILE THE WOMEN ARE SLEEPING-</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2015/12/30/224-fixer.html">
+        <p class="title">FIXER</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2015/09/30/916-nhkbenishiroutagassen&rettsugoyanguetc.html">
+        <p class="title">中森明菜プレミアムBOX ルーカス〜NHK紅白歌合戦&レッツゴーヤング etc.</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2015/09/30/150-unfixable.html">
+        <p class="title">unfixable</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2015/01/28/608-utahime4myeggsbenedict.html">
+        <p class="title">歌姫4 -My Eggs Benedict-</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2015/01/21/149-rojotierra.html">
+        <p class="title">Rojo -Tierra-</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2014/08/06/413-alltimebestutahimecover.html">
+        <p class="title">オールタイム・ベスト -歌姫(カヴァー)-</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2014/08/06/412-alltimebestoriginal.html">
+        <p class="title">オールタイム・ベスト -オリジナル-</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2012/03/28/915-thebesttennakamoriakinapremiumbox.html">
+        <p class="title">ザ・ベストテン 中森明菜 プレミアムBOX</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2010/12/22/914-nakamoriakinainyorunohittosutajio.html">
+        <p class="title">中森明菜 IN 夜のヒットスタジオ</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2010/08/18/913-speciallive2009empressatyokohama.html">
+        <p class="title">AKINA NAKAMORI Special Live 2009 "Empress at Yokohama"</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2010/07/13/148-crazylove.html">
+        <p class="title">Crazy Love</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2009/09/23/147-diva.html">
+        <p class="title">DIVA</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2009/08/26/223-diva.html">
+        <p class="title">DIVA</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2009/07/29/805-clip20022007&more.html">
+        <p class="title">CLIP2002〜2007&MORE</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2009/07/29/607-fuokusonguutahimeaishouuta.html">
+        <p class="title">フォーク・ソング2 〜歌姫哀翔歌</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2009/06/24/606-mudokayouutahimeshouwameikyokushuu.html">
+        <p class="title">ムード歌謡 〜歌姫昭和名曲集</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2008/12/24/605-fuokusonguutahimejojouuta.html">
+        <p class="title">フォーク・ソング〜歌姫抒情歌</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2008/02/27/411-utahimedensetsu90sbest.html">
+        <p class="title">歌姫伝説 〜90's BEST〜</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2007/06/27/604-tsuyakaenka.html">
+        <p class="title">艶華 -Enka-</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2007/03/28/410-balladbest25thanniversaryselection.html">
+        <p class="title">バラード・ベスト 〜25th Anniversary Selection〜</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2007/01/17/912-livetour2006thelastdestination.html">
+        <p class="title">LIVE TOUR 2006 The Last Destination</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2007/01/17/409-utahimebesuto25thanniversaryselection.html">
+        <p class="title">歌姫ベスト 〜25th Anniversary Selection〜</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2006/06/21/222-destination.html">
+        <p class="title">DESTINATION</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2006/05/17/146-hanayoodore.html">
+        <p class="title">花よ踊れ</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2006/01/11/911-speciallive2005empressatclubex.html">
+        <p class="title">Akina Nakamori Special Live 2005 Empress at CLUB eX</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2006/01/11/408-bestfinger25thanniversaryselection.html">
+        <p class="title">BEST FINGER 25th anniversary selection</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2005/12/07/145-rakkaryuusui.html">
+        <p class="title">落花流水</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2004/12/01/701-utahimecompleteboxempress.html">
+        <p class="title">歌姫 Complete Box Empress</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2004/07/07/144-hajimetedeattahinoyouni.html">
+        <p class="title">初めて出逢った日のように</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2004/05/12/143-akaihana.html">
+        <p class="title">赤い花</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2003/12/17/910-livetour2003ihopeso.html">
+        <p class="title">Live tour 2003 〜I hope so〜</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2003/12/03/603-utahime3shuumaku.html">
+        <p class="title">歌姫3 〜終幕</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2003/05/14/221-ihopeso.html">
+        <p class="title">I hop so 〜バラード・アルバム〜</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2003/04/30/142-days.html">
+        <p class="title">Days</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2002/12/04/909-musicafiestatour2002.html">
+        <p class="title">AKINA NAKAMORI MUSICA FIESTA TOUR 2002</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2002/12/04/407-utahimedaburudikeido.html">
+        <p class="title">Akina Nakamori〜歌姫ダブル・ディケイド</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2002/07/10/804-apasionado.html">
+        <p class="title">Apasionado</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2002/05/22/220-resonancia.html">
+        <p class="title">Resonancia</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2002/05/02/141-theheatmusicafiesta.html">
+        <p class="title">The Heat 〜musica fiesta〜</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2002/03/20/602-zeroalbumutahime2.html">
+        <p class="title">-ZEROalbum- 歌姫2</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2001/09/27/908-20thanniversaryliveitsbrandnewday.html">
+        <p class="title">Akina Nakamori. 2001. 20th Anniversary Live 〜It's brand new day〜</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/2001/05/31/140-itsbrandnewday.html">
+        <p class="title">It's brand new day</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1999/12/01/219-will.html">
+        <p class="title">will</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1999/12/01/139-trustme.html">
+        <p class="title">Trust Me</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1999/01/21/138-oferia.html">
+        <p class="title">オフェリア</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1998/09/23/137-tomadoi.html">
+        <p class="title">とまどい</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1998/06/17/218-spoon.html">
+        <p class="title">SPOON</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1998/05/21/136-konyanagareboshi.html">
+        <p class="title">今夜、流れ星</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1998/02/11/135-kiseineverforget.html">
+        <p class="title">帰省 〜Never Forget〜</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1997/09/22/907-felicidadakinanakamorilive97.html">
+        <p class="title">felicidad AKINA NAKAMORI LIVE '97</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1997/03/21/217-shaker.html">
+        <p class="title">SHAKER</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1997/02/21/134-appetite.html">
+        <p class="title">APPETITE</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1996/12/18/305-vamp.html">
+        <p class="title">VAMP</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1996/08/07/133-moonlightshadowtsukinihoero.html">
+        <p class="title">MOONLIGHT SHADOW-月に吠えろ</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1995/12/06/406-truealbumakina95best.html">
+        <p class="title">true album akina 95 best</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1995/11/01/132-tokyorose.html">
+        <p class="title">Tokyo Rose</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1995/07/21/216-laalteracion.html">
+        <p class="title">la alteración</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1995/06/21/131-genshionnawataiyoudatta.html">
+        <p class="title">原始、女は太陽だった</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1995/03/24/906-utahimeparcotheaterlive.html">
+        <p class="title">UTAHIME AKINA NAKAMORI PARCO THEATER LIVE</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1994/10/05/130-tsukika.html">
+        <p class="title">月華</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1994/09/02/129-yorunodokokadenightshift.html">
+        <p class="title">夜のどこかで 〜night shift〜</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1994/03/24/601-utahime.html">
+        <p class="title">歌姫</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1994/03/24/128-kataomoi.html">
+        <p class="title">片想い</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1993/09/22/215-unbalance+balance.html">
+        <p class="title">UNBALANCE+BALANCE</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1993/08/25/905-livein88femmefatale.html">
+        <p class="title">Live in '88 Femme Fatale</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1993/08/25/904-livein87ahundreddays.html">
+        <p class="title">Live in '87 A HUNDRED days</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1993/05/21/127-everlastinglove.html">
+        <p class="title">Everlasting Love</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1992/11/10/405-bestiii.html">
+        <p class="title">BEST III</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1992/07/25/903-91akinanakamorispeciallive.html">
+        <p class="title">夢 '91 Akina Nakamori Special Live</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1991/11/28/502-listentome.html">
+        <p class="title">Listen to Me</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1991/03/25/126-futarishizuka.html">
+        <p class="title">二人静 -「天河伝説殺人事件」より</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1990/11/06/125-mizunisashitahana.html">
+        <p class="title">水に挿した花</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1990/07/17/124-dearfriend.html">
+        <p class="title">Dear Friend</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1989/11/28/902-akinaeastliveindexxxiii.html">
+        <p class="title">AKINA EAST LIVE INDEX-XXIII</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1989/11/17/501-akinaeastliveindexxxiii.html">
+        <p class="title">AKINA EAST LIVE INDEX-XXIII</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1989/07/25/214-cruise.html">
+        <p class="title">CRUISE</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1989/04/25/123-liar.html">
+        <p class="title">LIAR</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1988/12/24/404-bestii.html">
+        <p class="title">BEST II</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1988/11/01/122-imissedtheshock.html">
+        <p class="title">I MISSED "THE SHOCK"</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1988/08/03/213-femmefatale.html">
+        <p class="title">Femme Fatale</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1988/06/01/304-wonder.html">
+        <p class="title">Wonder</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1988/05/18/121-tattoo.html">
+        <p class="title">TATTOO</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1988/03/03/212-stock.html">
+        <p class="title">Stock</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1988/01/27/120-almauj.html">
+        <p class="title">AL-MAUJ (アルマージ)</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1987/12/21/803-crossmypalm.html">
+        <p class="title">Cross My Palm</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1987/09/30/119-nampasen.html">
+        <p class="title">難破船</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1987/08/25/211-crossmypalm.html">
+        <p class="title">Cross My Palm</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1987/06/03/118-blonde.html">
+        <p class="title">BLONDE</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1987/05/01/403-cd'87.html">
+        <p class="title">CD'87</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1987/02/04/117-tangonoir.html">
+        <p class="title">TANGO NOIR</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1986/12/24/210-crimson.html">
+        <p class="title">CRIMSON</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1986/11/10/116b-nonfuikushonekusutashi.html">
+        <p class="title">ノンフィクション エクスタシー</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1986/09/25/116-fin.html">
+        <p class="title">Fin</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1986/08/11/209-fushigi.html">
+        <p class="title">不思議</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1986/05/26/115-jipushikuin.html">
+        <p class="title">ジプシー・クイーン</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1986/04/01/402-best.html">
+        <p class="title">BEST</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1986/02/03/114-desirejonetsu.html">
+        <p class="title">DESIRE -情熱-</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1985/12/21/303-mybestthanks.html">
+        <p class="title">MY BEST THANKS</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1985/12/10/901-bitter&sweet1985summertour.html">
+        <p class="title">BITTER & SWEET 1985 SUMMER TOUR</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1985/10/09/113-solitude.html">
+        <p class="title">SOLITUDE</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1985/08/10/208-d404me.html">
+        <p class="title">D404ME</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1985/06/19/112-sandbeigesabakue.html">
+        <p class="title">SAND BEIGE -砂漠へ-</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1985/05/01/802-hajimemashitenakamoriakina.html">
+        <p class="title">はじめまして 中森明菜</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1985/05/01/111b-akaitoriniget.html">
+        <p class="title">赤い鳥逃げた</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1985/04/03/207-bitterandsweet.html">
+        <p class="title">BITTER AND SWEET</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1985/03/08/111-meuamore.html">
+        <p class="title">ミ・アモーレ〔Meu amor é･･･〕</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1984/12/21/302-silentlove.html">
+        <p class="title">SILENT LOVE</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1984/11/14/110-kazarijanainoyonamidaha.html">
+        <p class="title">飾りじゃないのよ涙は</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1984/10/10/206-possibility.html">
+        <p class="title">POSSIBILITY</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1984/07/25/109-jikkai.html">
+        <p class="title">十戒 (1984)</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1984/05/01/205-anniversary.html">
+        <p class="title">ANNIVERSARY</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1984/04/11/108-sazanuindo.html">
+        <p class="title">サザン・ウインド</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1984/01/01/107-kitauingu.html">
+        <p class="title">北ウイング</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1983/12/21/401-bestakinamemowaru.html">
+        <p class="title">BEST AKINA メモワール</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1983/10/12/801-akinainyoroppa.html">
+        <p class="title">NEW AKINA エトランゼ 中森明菜 in ヨーロッパ</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1983/09/07/106-kinku.html">
+        <p class="title">禁区</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1983/08/10/204-newakinaetoranze.html">
+        <p class="title">NEW AKINA エトランゼ</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1983/06/01/105-towairaito.html">
+        <p class="title">トワイライト -夕暮れ便り-</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1983/03/23/203-fuantaji.html">
+        <p class="title">ファンタジー〈幻想曲〉</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1983/02/23/104-12noshinwa.html">
+        <p class="title">1/2の神話</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1982/12/24/301-seventeen.html">
+        <p class="title">Seventeen</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1982/11/10/103-sekandorabu.html">
+        <p class="title">セカンド・ラブ</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1982/10/27/202-barieshon.html">
+        <p class="title">バリエーション〈変奏曲〉</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1982/07/28/102-shojoa.html">
+        <p class="title">少女A</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1982/07/01/201-purorogu.html">
+        <p class="title">プロローグ〈序幕〉</p>
+        <p class="content"></p>
+      </a>
+    </li>
+    <li hidden>
+      <a href="/posts/1982/05/01/101-suromoshon.html">
+        <p class="title">スローモーション</p>
+        <p class="content"></p>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<footer class="footer">
+  <span>Copyright © JHrockice&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+  <span>Blog theme by TMaize</span>
+  <div class="footer-btn theme-toggler hide">
+    <i class="svg-icon icon-theme-light"></i>
+  </div>
+  <div class="footer-btn to-top">
+    <i class="svg-icon icon-arrow-top"></i>
+  </div>
+</footer>
+<script type="text/javascript" src="/static/js/blog.js?t=20240313203753"></script>
+<script type="text/javascript" src="/static/js/search.js?t=20240313203753"></script>
+</body>
+</html>
